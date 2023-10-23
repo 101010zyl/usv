@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "C/C++",
+            "includePath": [
+                "${workspaceRoot}\\BORLANDC\\INCLUDE",
+                "${workspaceRoot}\\USV\\include"
+            ],
+            "compilerPath": "F:\\mingw64\\bin\\gcc.exe",
+            "defines": [
+                "far= ",
+                "near= ",
+                "huge= ",
+                "cdecl= "
+            ],
+            "cStandard": "c89",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

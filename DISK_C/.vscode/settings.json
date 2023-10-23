@@ -1,0 +1,35 @@
+{
+    "BC.prj_out_dir": "C:\\test\\output\\",
+    "files.encoding": "gbk",
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: webkit, IndentWidth: 4}",
+    "files.associations": {
+        "files.autoGuessEncoding": "GBK",
+        "select.h": "c"
+    },
+    "fileheader.configObj": {
+        "autoAdd":false,
+        "openFunctionParamsCheck": true,
+        "language": {
+           // 一次匹配多种文件后缀文件 不用重复设置
+           "c/h/hpp/cpp": {
+              "head": "/************************************************************************************* ", // 统一增加几个*号
+              "middle": " * @",
+              "end": " *************************************************************************************/"
+            },
+            
+        },
+    },
+      "fileheader.customMade": {
+        //"Author":"",
+        "Date": "", // 文件创建时间(不变)
+        //"LastEditors": "", // 文件最后编辑者
+        "LastEditTime": "", // 文件最后编辑时间
+        "Description":""
+      },
+      "fileheader.cursorMode": {
+        "description": "", 
+        "param": "", 
+        "return":""
+      }
+}
